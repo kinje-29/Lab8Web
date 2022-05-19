@@ -3,50 +3,82 @@
   margin: 0;
 }
 
-body {
-  font-family: 'Times New Roman', Times, serif;
+.container {
+  margin: 20px 10px;
+
 }
 
-.container {
-  width: 350px;
-  background: grey;
-  margin: 50px auto;
-  padding: 20px 20px;
-  border-radius: 20px;
-  box-shadow: 5px 15px 35px #1b1d1c;
+table {
+  font-family: sans-serif;
+  color: #232323;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+th{
+  background-color: #232323;
+  color:white;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px 20px;
+}
+
+tr:nth-child(even){
+  background-color: #949292;
 }
 
 h1 {
+  padding-bottom: 20px;
   text-align: center;
-  text-transform: uppercase;
 }
 
-hr {
-  margin-top: 10px;
-  margin-bottom: 20px;
+.tambah {
+  margin-left: 100px;
 }
 
-.nama {
-  box-sizing: border-box;
-  width: 100%;
-  padding: 10px;
-  font-size: 11pt;
-  margin-bottom: 20px;
-  margin-top: 10px;
-  border-radius: 20px;
-}
-
-.kirim{
-  background: #1b1d1c;
+.tambah:link,
+.tambah:visited {
+  background-color: #232323;
   color: white;
-  font-size: 11pt;
-  width: 100%;
-  border: none;
-  padding: 10px 20px;
-  margin-top: 10px;
-  border-radius: 20px;
+  text-decoration: none;
+  padding: 14px 25px;
+  display: inline-block;
 }
-.kirim:hover {
-  background: rgb(34, 35, 25);
-  cursor: pointer;
+
+.tambah:hover {
+  background-color: rgb(25, 35, 35);
+}
+
+.ubah {
+  margin-right: 10px;
+}
+
+.ubah:link,
+.ubah:visited {
+  background-color: rgb(61, 173, 45);
+  color: white;
+  text-decoration: none;
+  padding: 14px 25px;
+  display: inline-block;
+}
+
+.ubah:hover {
+  background-color: rgb(25, 35, 35);
+}
+
+.hapus:link,
+.hapus:visited {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  text-decoration: none;
+  padding: 14px 25px;
+  display: inline-block;
+}
+
+.hapus:hover {
+  background-color: rgb(25, 35, 35);
 }

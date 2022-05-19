@@ -13,7 +13,7 @@ if (isset($_POST['submit'])) {
     $filename = str_replace(' ', '_', $file_gambar['name']);
     $destination = dirname(__FILE__) . '/gambar/' . $filename;
     if (move_uploaded_file($file_gambar['tmp_name'], $destination)) {
-      $gambar = 'gambar/' . $filename;;
+      $gambar =  $filename;;
     }
   }
   $sql = 'INSERT INTO data_barang (nama, kategori,harga_jual, harga_beli, stok, gambar) ';
