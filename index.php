@@ -40,7 +40,7 @@ $result = mysqli_query($conn, $sql);
     }
 
     h1 {
-      padding-bottom: 30px;
+      padding-bottom: 20px;
       text-align: center;
     }
 

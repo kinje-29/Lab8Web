@@ -70,7 +70,7 @@ if (isset($_POST['submit'])) {
       border-radius: 20px;
     }
 
-    .kirim{
+    .kirim {
       background: #1b1d1c;
       color: white;
       font-size: 11pt;
@@ -80,6 +80,7 @@ if (isset($_POST['submit'])) {
       margin-top: 10px;
       border-radius: 20px;
     }
+
     .kirim:hover {
       background: rgb(34, 35, 25);
       cursor: pointer;
@@ -133,7 +134,7 @@ if (isset($_POST['submit'])) {
           <input type="file" name="file_gambar" />
         </div>
 
-        <div class="submit"> 
+        <div class="submit">
           <input class="kirim" type="submit" name="submit" value="Simpan" />
         </div>
 
