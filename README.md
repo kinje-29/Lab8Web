@@ -4,10 +4,15 @@
 
 ![Koneksi.png](img/Koneksi.png)
 
+*  Untuk menghubungkan PHP dengan MYSQL, kita menggunakan fungsi `myssqli_connect()` dengan parameter alamat host/server, user, password, dan nama database. 
+
+* jika koneksi gagal, variable `$conn akan bernilai ` false karna itu kita bisa mengeceknya dengan ekspresi `if`
 
 ## Membuat index.php
 
 ![index.png](img/index.png)
+
+* Memanggil koneksi dengan `include("koneksi.php")`
 
 ![index1.png](img/index1.png)
 
